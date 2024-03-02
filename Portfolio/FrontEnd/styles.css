@@ -1,0 +1,184 @@
+html { 
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; 
+    scroll-snap-stop: always;
+} 
+body{ 
+    text-align: center; 
+    background-image: url("../Images/background.jpg"); 
+    background-size: contain; 
+    background-repeat: repeat-y;  
+    
+
+
+} 
+
+
+#navbar { 
+   
+
+overflow: hidden;
+position: fixed; 
+display: flex;
+flex-direction: row;
+top: 0; 
+left: 0;
+width: 100%; 
+}  
+
+
+
+
+.workoutImage,.CurImage,.toDoImage { 
+
+margin-top:10%;
+max-height: 90%;
+max-width: 90%;
+object-fit: contain; 
+border-width:100%;
+
+
+} 
+
+
+
+#toDO ,#Currency,  #Workout {     
+    display: flex; 
+}
+#Workout { 
+    float: right;
+    width: 50%;
+    margin-left: 50%;
+    
+}
+
+#toDO { 
+    margin: auto;
+    scroll-snap-align : center; 
+    scroll-snap-stop: always;  
+    margin-bottom: 12%; 
+    text-align: center;
+    width: 100%; 
+    height: 100%;
+    
+}  
+
+#Workout { 
+
+    margin: auto;
+    scroll-snap-align : center; 
+    scroll-snap-stop: always;  
+    margin-bottom: 12%; 
+    text-align: center;
+    width: 100%; 
+    height: 100%;
+
+}
+
+#Currency { 
+
+    margin: auto;
+    scroll-snap-align : center; 
+    scroll-snap-stop: always;  
+    margin-bottom: 10%;
+    text-align: center;
+    width: 100%; 
+    height: 100%;
+  
+
+    
+}
+
+
+
+#aboutMe { 
+    
+  
+    font-size: x-large; 
+    padding: 10%;
+    scroll-snap-align : center ; 
+    
+    
+   
+}
+
+
+
+button { 
+    float: left; 
+    display: block;
+    padding: 1%;
+    background-color: #002D62;
+    border-right: solid white; 
+    border-bottom: none; 
+    border-top: none; 
+    border-left: none;
+    cursor: pointer; 
+    font-size: large; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    width: 25%; 
+    height: fit-content;
+    color: white;
+    
+}
+
+button:hover { 
+
+    background-color: #071837;
+    
+}
+
+
+#container {  
+
+   color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   margin: auto; 
+   width: 100%;
+   text-align: center; 
+ 
+}   
+
+
+h1,h2 { 
+
+    text-decoration: underline; 
+    
+}
+
+
+
+p { 
+
+    line-height: 200%; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+} 
+
+
+
+
+li { 
+    list-style-type: none;
+    padding: 3%; 
+    width: 80%; 
+    margin: auto;
+    text-align: center; 
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+} 
+
+
+
+::-webkit-scrollbar-button { 
+
+    background-color: darkblue;
+
+} 
+
+@keyframes identifier {
+    
+} 
